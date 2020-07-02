@@ -11,5 +11,4 @@
 	 * hue-rotate(色相旋转):0~360deg
 	 * opacity(透明度):0~1
 	 * drop-shadow(阴影):(5px 5px 5px rgba(0, 0, 0, 0.5))
-	 * 
  */
