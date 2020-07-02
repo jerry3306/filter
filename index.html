@@ -3,79 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>滤镜</title>
-		<style>
-			img{
-				display: block;
-				width: 500px;
-				margin: 0 auto;
-				transition: all 3s;
-			}
-			img:hover{
-				-webkit-filter: none;
-			}
-			.img1{
-				/**
-				 * 滤镜属性,灰度
-				 * grayscale:介于0～1之间,1是100%灰,0就是正常颜色 
-				 */
-				-webkit-filter: grayscale(1);
-			}
-			.img2{
-				/**
-				 * 滤镜属性,亮度
-				 * brightness:默认值是1为正常亮度
-				 */
-				-webkit-filter: brightness(2);
-			}
-			.img3{
-				/**
-				 * 滤镜属性,褐色
-				 * sepia:1是100%褐色,0是正常颜色
-				 */
-				-webkit-filter: sepia(1);
-			}
-			.img4{
-				/**
-				 * 滤镜属性,模糊度
-				 * blur:单位是像素
-				 */
-				 -webkit-filter: blur(5px);
-			}
-			.img5{
-				/**
-				 * 滤镜属性,对比度
-				 * contrast:正常值是1，如果调成0，就没有任何对比度，变成灰色
-				 */
-				-webkit-filter: contrast(0.5);
-			}
-			.img6{
-				/**
-				 * 滤镜属性,饱和度
-				 * saturate:0～1
-				 */
-				-webkit-filter: saturate(0.5);
-			}
-			.img7{
-				/**
-				 * 滤镜属性,反色
-				 * invert:0～1
-				 */
-				-webkit-filter: invert(1);
-			}
-			.img8{
-				/**
-				 * 滤镜属性,色相旋转
-				 * hue-rotate:0～360deg
-				 */
-				-webkit-filter: hue-rotate(90deg);
-			}
-			.img9{
-				-webkit-filter: blur(5px) grayscale(1);
-			}
-			.img9:hover{
-				-webkit-filter: blur(0px) grayscale(1);
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
 	</head>
 	<body>
 		<img class="img1" src="img/a3cd-iittafr2173285.jpg" />
@@ -88,4 +16,5 @@
 		<img class="img8" src="img/a3cd-iittafr2173285.jpg" />
 		<img class="img9" src="img/a3cd-iittafr2173285.jpg" />
 	</body>
+	<script type="text/javascript" src="./js/app.js"></script>
 </html>
